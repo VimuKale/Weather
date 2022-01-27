@@ -71,6 +71,10 @@ input:focus {
   /* text-shadow: 0px 0px 50px white; */
 }
 
+b {
+  text-transform: capitalize;
+}
+
 footer {
   margin-top: 20px;
   bottom: 0%;

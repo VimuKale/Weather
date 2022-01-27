@@ -17,7 +17,7 @@ async function getWeatherByLocation(city) {
 function addWeatherToPage(data,cityy) {
   console.log(data);
   console.log(data.weather[0].icon);
-
+  const cc = cityy.capata
   const temp = Ktoc(data.main.temp);
   const feels = Kfeel(data.main.feels_like);
 
@@ -26,7 +26,7 @@ function addWeatherToPage(data,cityy) {
   const weather = document.createElement("div");
   weather.classList.add("weather");
   weather.innerHTML = `  
-      <h2><img src="https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png" /><br>${cityy} <br> ${temp}°C <br> ${data.weather[0].main} <br> Feels Like ${feels}°C <br> Humidity is ${data.main.humidity}% <br><br> ${today}</h2>
+      <h2><img src="https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png" /><br> <b>${cityy}</b> <br> ${temp}°C <br> ${data.weather[0].main} <br> Feels Like ${feels}°C <br> Humidity is ${data.main.humidity}% <br><br> ${today}</h2>
       `;
   //  cleanup
   main.innerHTML = "";
