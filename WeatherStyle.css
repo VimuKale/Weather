@@ -73,7 +73,7 @@ input:focus {
 
 footer {
   bottom: 0%;
-  position: fixed;
+  position: relative;
   text-align: center;
   /* color: grey; */
 }
