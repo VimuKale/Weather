@@ -6,6 +6,7 @@
 body {
   margin: 0;
   font-family: "Poppins";
+  font-weight: 400;
   /* background-color: linear-gradiet(300deg, #757b87, #909d9d); */
   background-color: white;
   display: flex;
@@ -16,6 +17,8 @@ body {
 }
 h1{
   font-size: 32px;
+  /* font-weight: 400; */
+  font-weight: 900;
   /* text-shadow: 0px 0px 7px black; */
 }
 form{
