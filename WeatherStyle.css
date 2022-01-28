@@ -83,6 +83,12 @@ footer {
   /* color: grey; */
 }
 
+
+input[type="text"]{
+-webkit-appearance: none;
+border-radius: 25px;
+}
+
 /* .weather h2 img {
   backdrop-filter: blur(5px);
 } */
