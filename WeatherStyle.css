@@ -15,7 +15,7 @@ body {
   flex-direction: column;
 }
 h1{
-  font-size: 2rem;
+  font-size: 32px;
   /* text-shadow: 0px 0px 7px black; */
 }
 form{
@@ -32,14 +32,14 @@ input[type="text"]::placeholder {
 }
 
 input {
-  padding: 1rem;
+  padding: 16px;
   border-radius: 25px;
   border: none;
   background-color: #fff;
   font-family: "Poppins";
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   min-width: 300px;
-  font-size: 1rem;
+  font-size: 16px ;
 }
 input:focus {
   outline: none;
@@ -51,7 +51,7 @@ input:focus {
   width: 600px;
   margin-top: 20px;
   text-align: center;
-  font-size: 1rem;
+  font-size: 16px;
   border-style: hidden;
   border-radius: 25px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
